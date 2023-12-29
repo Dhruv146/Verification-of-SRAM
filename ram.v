@@ -97,7 +97,7 @@ addr=0;
 	begin
 		if(memory[j]!= 8'h00)      //read 0
 		begin
-		addr=k;
+		addr=j;
 			  $display("there is fault memory at location: %b",addr);        
 		end
 	end	
