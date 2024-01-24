@@ -55,7 +55,7 @@ addr=0;
 #20;                        // step 1
 	for(i=0;i<32;i=i+1)    //write 0
 	begin
-		memory[i]<=8'h00;
+		memory[i]=8'h00;
 		addr=i;
 	end
 	
